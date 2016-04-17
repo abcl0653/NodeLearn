@@ -8,11 +8,11 @@ console.log('The static root: ' + root);
 
 var server = http.createServer(function (request, response) {
 	var filepath = path.join(root,url.parse(request.url).pathname);
-	console.log('filepath: ' + filepath);
+//	console.log('filepath: ' + filepath);
 
 	fs.stat(filepath, function(err, stats) {
 		if (!err && stats.isFile()) {
-			console.log('200' + request.url);
+//			console.log('200' + request.url);
 			response.writeHead('200');
 			fs.createReadStream(filepath).pipe(response);
 		} else {
