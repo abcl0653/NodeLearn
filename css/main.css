@@ -56,6 +56,16 @@ body {
     display: inline-block
 }
 
+.index-tab-navs a {
+    float: left;
+    width: 4em;
+    line-height: 35px;
+    opacity: .7;
+    -ms-filter: "alpha(Opacity=70)";
+    -webkit-transition: opacity .15s, color .15s;
+    transition: opacity .15s, color .15s
+}
+
 .index-tab-navs .navs-slider .navs-slider-bar {
     position: absolute;
     left: 0;
@@ -75,6 +85,7 @@ body {
 .index-tab-navs a {
     float: left;
     width: 4em;
+    color: #090101c9;
     line-height: 35px;
     opacity: .7;
     -ms-filter: "alpha(Opacity=70)";
@@ -84,6 +95,12 @@ body {
 
 a {
     text-decoration: none
+
+}
+
+.sign-flow .view.selected {
+    display: block
+    color: #ff98c6;
 }
  .index-tab-navs a:hover {
     opacity: 1;
