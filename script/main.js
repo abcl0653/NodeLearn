@@ -1,5 +1,13 @@
 window.addEventListener("hashchange", switch_sign, false);
 
+$("#sign-form-1").submit(function(event) {
+	event.preventDefault();
+	alert("called!");
+	console.log("Called!!");
+});
+
+//$("#sign-form-1").submit(function(event) {alert("alert called");});
+
 function switch_sign () {
 	//alert(window.location.hash);
 	if (window.location.hash === '#signin') {
