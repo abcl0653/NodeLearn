@@ -9,7 +9,9 @@
   "author": "Charlie Cai",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^0.20.0",
     "express": "^4.13.4",
+    "superagent": "^1.8.3",
     "utility": "^1.7.0"
   }
 }
