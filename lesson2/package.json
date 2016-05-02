@@ -9,6 +9,7 @@
   "author": "Charlie Cai",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "cheerio": "^0.20.0",
     "eventproxy": "^0.3.4",
     "express": "^4.13.4",

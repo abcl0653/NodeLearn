@@ -1,112 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
-	<title>Lego stopby</title>
+    <title>Lego stopby</title>
 </head>
 <body>
 <!--
 <h1>Hello World!</h1>
 -->
-<div class="index-main">
-<div class="index-main-body">
-	<div class="index-header">
-		<h1 class="title">乐  高</h1>
-		<h2 class="subtitle">图纸分享,搭建乐趣</h2>
-	</div>
+    <div class="index-main">
+        <div class="index-main-body">
+    <div class="index-header">
+        <h1 class="title">乐  高</h1>
+        <h2 class="subtitle">图纸分享,搭建乐趣</h2>
+    </div>
+        <div class = "desk-front">
+
+    <div class="index-tab-navs">
+        <div class="navs-slider" data-active-index="1">
+            <a href="#signup" class>注册</a>
+            <a href="#signin" class="active">登录</a>
+            <span class="navs-slider-bar"></span>
+        </div>
+    </div>
+    <div class="view view-signin" style="display: block;">
+        <form novalidate="novalidate">
+            
+            <input type="hidden" name="_xsrf" >
+            <div class="group-inputs">
+            
+            <div class="email input-wrapper">
+                <input required="" type="text" class="account" name="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱">
+            </div>
+            <div class="input-wrapper">
+                <input required="" type="password" name="password" aria-label="密码" placeholder="密码">
+            </div>
+            <!--
+            <div class="input-wrapper captcha-module" style="display: block;">
+
+                
+                <input id="captcha" name="captcha" placeholder="验证码" required="">
+                <div class="captcha-container">
+
+                <img class="js-refresh-captcha captcha" width="120" height="30" data-tip="s$t$看不清楚？换一张" alt="验证码" src="/captcha.gif?r=1460732788397">
+                </div>
+                
+            </div>
+            -->
+            </div>
+            <div class="failure" id="summary"><ul></ul></div>
+            <div class="button-wrapper command">
+                <button class="sign-button submit" type="submit">登录</button>
+            </div>
+        </form>
 
 
-<div class = "desk-front">
+    </div> <!-- denglu -->
+    <div class="view view-signup" style="display: none;">
+        <form class="zu-side-login-box" action="/register/email" id="sign-form-1" autocomplete="off" novalidate="novalidate">
+            <!--
+            <input type="password" hidden=""> 
+            <input type="hidden" name="_xsrf" >
+            -->
+            <div class="group-inputs">
+            <div class="name input-wrapper">
+                <input required="" type="text" name="fullname" aria-label="姓名" placeholder="姓名">
+            </div>
+            <div class="email input-wrapper">
+                <input required="" type="text" class="account" name="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱">
+            </div>
+            <div class="input-wrapper">
+                <input required="" type="password" name="password" aria-label="密码" placeholder="密码（不少于 6 位）">
+            </div>
+            <!--
+            <div class="input-wrapper captcha-module" style="display: block;">
 
-	<div class="index-tab-navs">
-		<div class="navs-slider" data-active-index="1">
-			<a href="#signup" class>注册</a>
-			<a href="#signin" class="active">登录</a>
-			<span class="navs-slider-bar"></span>
-		</div>
-	</div>
-	<div class="view view-signin" style="display: block;">
-		<form novalidate="novalidate">
-			
-			<input type="hidden" name="_xsrf" >
-			<div class="group-inputs">
-			
-			<div class="email input-wrapper">
-				<input required="" type="text" class="account" name="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱">
-			</div>
-			<div class="input-wrapper">
-				<input required="" type="password" name="password" aria-label="密码" placeholder="密码">
-			</div>
-			<!--
-			<div class="input-wrapper captcha-module" style="display: block;">
+                
+                <input id="captcha" name="captcha" placeholder="验证码" required="">
+                <div class="captcha-container">
 
-				
-				<input id="captcha" name="captcha" placeholder="验证码" required="">
-				<div class="captcha-container">
+                <img class="js-refresh-captcha captcha" width="120" height="30" data-tip="s$t$看不清楚？换一张" alt="验证码" src="/captcha.gif?r=1460732788397">
+                </div>
+                
+            </div>
+            -->
+            </div>
+            <div class="failure" id="summary"><ul></ul></div>
+            <div class="button-wrapper command">
+                <button class="sign-button submit" type="submit">注册</button>
+            </div>
+        </form>
 
-				<img class="js-refresh-captcha captcha" width="120" height="30" data-tip="s$t$看不清楚？换一张" alt="验证码" src="/captcha.gif?r=1460732788397">
-				</div>
-				
-			</div>
-			-->
-			</div>
-			<div class="failure" id="summary"><ul></ul></div>
-			<div class="button-wrapper command">
-				<button class="sign-button submit" type="submit">登录</button>
-			</div>
-		</form>
-
-
-	</div> <!-- denglu -->
-	<div class="view view-signup" style="display: none;">
-		<form class="zu-side-login-box" action="/register/email" id="sign-form-1" autocomplete="off" novalidate="novalidate">
-			<!--
-			<input type="password" hidden=""> 
-			<input type="hidden" name="_xsrf" >
-			-->
-			<div class="group-inputs">
-			<div class="name input-wrapper">
-				<input required="" type="text" name="fullname" aria-label="姓名" placeholder="姓名">
-			</div>
-			<div class="email input-wrapper">
-				<input required="" type="text" class="account" name="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱">
-			</div>
-			<div class="input-wrapper">
-				<input required="" type="password" name="password" aria-label="密码" placeholder="密码（不少于 6 位）">
-			</div>
-			<!--
-			<div class="input-wrapper captcha-module" style="display: block;">
-
-				
-				<input id="captcha" name="captcha" placeholder="验证码" required="">
-				<div class="captcha-container">
-
-				<img class="js-refresh-captcha captcha" width="120" height="30" data-tip="s$t$看不清楚？换一张" alt="验证码" src="/captcha.gif?r=1460732788397">
-				</div>
-				
-			</div>
-			-->
-			</div>
-			<div class="failure" id="summary"><ul></ul></div>
-			<div class="button-wrapper command">
-				<button class="sign-button submit" type="submit">注册</button>
-			</div>
-		</form>
-
-	</div> <!-- zhuce -->
-	
+    </div> <!-- zhuce -->
 </div>
 
 </div>
-<div class="footer">
-
+    <div class="footer">
+    </div>
+    
 </div>
-	
-</div>
 
-	<script type="text/javascript" src="./script/main.js"></script>
+    <script type="text/javascript" src="./script/main.js"></script>
 </body>
 </html>

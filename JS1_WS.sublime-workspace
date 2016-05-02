@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"topc",
+				"topicUrl"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"view",
+				"view-signin"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
 				"m",
 				"m"
 			]
@@ -12,10 +32,45 @@
 	"buffers":
 	[
 		{
-			"file": "httpTest.js",
+			"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/app.js",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 1440,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 264,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"./css/main.css\">\n    <script src=\"//code.jquery.com/jquery-1.11.3.min.js\"></script>\n\n    <title>Lego stopby</title>\n</head>\n<body>\n<!--\n<h1>Hello World!</h1>\n-->\n    <div class=\"index-main\">\n        <div class=\"index-main-body\">\n    <div class=\"index-header\">\n        <h1 class=\"title\">乐  高</h1>\n        <h2 class=\"subtitle\">图纸分享,搭建乐趣</h2>\n    </div>\n        <div class = \"desk-front\">\n\n    <div class=\"index-tab-navs\">\n        <div class=\"navs-slider\" data-active-index=\"1\">\n            <a href=\"#signup\" class>注册</a>\n            <a href=\"#signin\" class=\"active\">登录</a>\n            <span class=\"navs-slider-bar\"></span>\n        </div>\n    </div>\n    <div class=\"view view-signin\" style=\"display: block;\">\n        <form novalidate=\"novalidate\">\n            \n            <input type=\"hidden\" name=\"_xsrf\" >\n            <div class=\"group-inputs\">\n            \n            <div class=\"email input-wrapper\">\n                <input required=\"\" type=\"text\" class=\"account\" name=\"account\" aria-label=\"手机号或邮箱\" placeholder=\"手机号或邮箱\">\n            </div>\n            <div class=\"input-wrapper\">\n                <input required=\"\" type=\"password\" name=\"password\" aria-label=\"密码\" placeholder=\"密码\">\n            </div>\n            <!--\n            <div class=\"input-wrapper captcha-module\" style=\"display: block;\">\n\n                \n                <input id=\"captcha\" name=\"captcha\" placeholder=\"验证码\" required=\"\">\n                <div class=\"captcha-container\">\n\n                <img class=\"js-refresh-captcha captcha\" width=\"120\" height=\"30\" data-tip=\"s$t$看不清楚？换一张\" alt=\"验证码\" src=\"/captcha.gif?r=1460732788397\">\n                </div>\n                \n            </div>\n            -->\n            </div>\n            <div class=\"failure\" id=\"summary\"><ul></ul></div>\n            <div class=\"button-wrapper command\">\n                <button class=\"sign-button submit\" type=\"submit\">登录</button>\n            </div>\n        </form>\n\n\n    </div> <!-- denglu -->\n    <div class=\"view view-signup\" style=\"display: none;\">\n        <form class=\"zu-side-login-box\" action=\"/register/email\" id=\"sign-form-1\" autocomplete=\"off\" novalidate=\"novalidate\">\n            <!--\n            <input type=\"password\" hidden=\"\"> \n            <input type=\"hidden\" name=\"_xsrf\" >\n            -->\n            <div class=\"group-inputs\">\n            <div class=\"name input-wrapper\">\n                <input required=\"\" type=\"text\" name=\"fullname\" aria-label=\"姓名\" placeholder=\"姓名\">\n            </div>\n            <div class=\"email input-wrapper\">\n                <input required=\"\" type=\"text\" class=\"account\" name=\"account\" aria-label=\"手机号或邮箱\" placeholder=\"手机号或邮箱\">\n            </div>\n            <div class=\"input-wrapper\">\n                <input required=\"\" type=\"password\" name=\"password\" aria-label=\"密码\" placeholder=\"密码（不少于 6 位）\">\n            </div>\n            <!--\n            <div class=\"input-wrapper captcha-module\" style=\"display: block;\">\n\n                \n                <input id=\"captcha\" name=\"captcha\" placeholder=\"验证码\" required=\"\">\n                <div class=\"captcha-container\">\n\n                <img class=\"js-refresh-captcha captcha\" width=\"120\" height=\"30\" data-tip=\"s$t$看不清楚？换一张\" alt=\"验证码\" src=\"/captcha.gif?r=1460732788397\">\n                </div>\n                \n            </div>\n            -->\n            </div>\n            <div class=\"failure\" id=\"summary\"><ul></ul></div>\n            <div class=\"button-wrapper command\">\n                <button class=\"sign-button submit\" type=\"submit\">注册</button>\n            </div>\n        </form>\n\n    </div> <!-- zhuce -->\n</div>\n\n</div>\n    <div class=\"footer\">\n    </div>\n    \n</div>\n\n    <script type=\"text/javascript\" src=\"./script/main.js\"></script>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 3295,
+			"file_write_time": 131056386080000000,
+			"settings":
+			{
+				"buffer_size": 3802,
 				"line_ending": "Unix"
 			}
 		}
@@ -27,18 +82,27 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 47.0,
+		"last_filter": "package",
 		"selected_items":
 		[
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Set Syntax: HTML (Rails)"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -52,10 +116,41 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cailin/Documents/JS"
+		"/Users/cailin/Documents/JS",
+		"/Users/cailin/Documents/JS/ExpressLearn",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/bin",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/public",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/public/images",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/public/javascripts",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/public/stylesheets",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/views",
+		"/Users/cailin/Documents/JS/NodeLearn",
+		"/Users/cailin/Documents/JS/NodeLearn/css"
 	],
 	"file_history":
 	[
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/public/stylesheets/style.css",
+		"/Users/cailin/Documents/JS/ExpressLearn/myapp/views/index.jade",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/app2.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/app3.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/app4.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/app5.js",
+		"/Users/cailin/Documents/JS/NodeLearn/script/main.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/app.js",
+		"/Users/cailin/Documents/JS/NodeLearn/fileServer.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/package.json",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson2/node_modules/app3.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson3/app.js",
+		"/Users/cailin/Documents/JS/NodeLearn/lesson1/app.js",
+		"/Users/cailin/Documents/JS/NodeLearn/index.html",
+		"/Users/cailin/Documents/JS/NodeLearn/asynTest.js",
+		"/Users/cailin/Documents/JS/NodeLearn/dnsTest.js",
+		"/Users/cailin/Documents/JS/NodeLearn/css/main.css",
+		"/Users/cailin/Documents/JS/NodeLearn/pathTest.js",
+		"/Users/cailin/Documents/JS/NodeLearn/main.js",
+		"/Users/cailin/Documents/JS/NodeLearn/script:main.js",
+		"/Users/cailin/Documents/JS/NodeLearn/httpTest.js",
 		"/Users/cailin/Desktop/JS/NodeLearn/helloWorld.js",
 		"/Users/cailin/Desktop/JS/NodeLearn/main.js",
 		"/Users/cailin/Desktop/JS/NodeLearn/testFs.js",
@@ -69,20 +164,35 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/cailin/Documents/JS/ExpressLearn/myapp/routes",
+			"/Users/cailin/Documents/JS/ExpressLearn/myapp"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"data",
+			"Express",
+			"express",
+			"welcome",
+			"type=\"s",
+			"button",
+			"button-wra",
+			"button",
+			";\n",
+			"button",
+			"}\n",
+			"subtitle",
+			"pathName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -106,24 +216,54 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "httpTest.js",
+					"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 1440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								311,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
 							]
 						],
 						"settings":
@@ -134,6 +274,92 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/views/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/cailin/Documents/JS/ExpressLearn/myapp/views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				}
@@ -142,11 +368,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -179,7 +405,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -216,8 +442,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
